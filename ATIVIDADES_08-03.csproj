@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6DCE0F92-A6C8-4F0F-B149-5B8EF542D357}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>ATIVIDADES_08_03</RootNamespace>
+    <AssemblyName>ATIVIDADES_08-03</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ATIVIDADES\BASICA BINARIA.cs" />
+    <Compile Include="ATIVIDADES\BUSCA COM SENTINELA.cs" />
+    <Compile Include="ATIVIDADES\BUSCA EM LISTA DE OBJETIVOS.cs" />
+    <Compile Include="ATIVIDADES\BUSCA EM LISTA DE STRINGS.cs" />
+    <Compile Include="ATIVIDADES\BÁSICO.cs" />
+    <Compile Include="ATIVIDADES\CONTAGEM DE OCORRÊNCIAS.cs" />
+    <Compile Include="ATIVIDADES\ELEMENTO MULTIPLO DE X.cs" />
+    <Compile Include="ATIVIDADES\INSERÇÃO ORDENADA.cs" />
+    <Compile Include="ATIVIDADES\MAIOR E MENOR ELEMENTO.cs" />
+    <Compile Include="ATIVIDADES\MAIOR NÚMERO MENOR QUE X.cs" />
+    <Compile Include="ATIVIDADES\MENOR NÚMERO MAIOR QUE X.cs" />
+    <Compile Include="ATIVIDADES\MULTIPLOS ELEMENTOS.cs" />
+    <Compile Include="ATIVIDADES\NÚMEROS MAIS PROXIMO.cs" />
+    <Compile Include="ATIVIDADES\PALAVRA EM TEXTO.cs" />
+    <Compile Include="ATIVIDADES\PALAVRAS ORDENADAS.cs" />
+    <Compile Include="ATIVIDADES\PAR OU ÍMPAR.cs" />
+    <Compile Include="ATIVIDADES\POSIÇÃO DA ÚLTIMA OCORRÊNCIA.cs" />
+    <Compile Include="ATIVIDADES\POSIÇÃO DO PRIMEIRO ELEMENTO.cs" />
+    <Compile Include="ATIVIDADES\VERIFICAÇÃO DE EXISTÊNCIA.cs" />
+    <Compile Include="ATIVIDADES\ÚLTIMA OCORRENCIA.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
